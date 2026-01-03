@@ -1,11 +1,10 @@
-import Button from "./components/ui/button";
+import Header from "./components/core/header";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center font-sans bg-linear-to-bl from-primary-feeble/10 to-white/90">
-      <main className="flex min-h-screen w-full flex-col items-center justify-between py-32 px-16 bg-linear-to-bl from-primary-feeble/10 to-white/90 sm:items-start">
-        <h1 className="text-black">Feeble</h1>
-        <Button />
+      <main className="flex min-h-screen w-full flex-col items-center py-10 px-90 bg-linear-to-bl from-primary-feeble/10 to-white/90 sm:items-start">
+        <Header />
       </main>
     </div>
   );
