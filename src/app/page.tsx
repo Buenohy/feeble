@@ -27,7 +27,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-          <Image src="/images/cloud.png" alt="Cloud Background" width={2560} height={520} className="" />
+          <Image src="/images/cloud.svg" alt="Cloud Background" width={2560} height={520} />
       </main>
     </div>
   );
