@@ -12,6 +12,7 @@
   --font-mono: var(--font-geist-mono);
 
   --color-background-feeble: #ffffff;
+  --color-primary-feeble: #007AFF;
 }
 
 @media (prefers-color-scheme: dark) {
