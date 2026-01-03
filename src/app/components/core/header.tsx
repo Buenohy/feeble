@@ -15,7 +15,9 @@ export default function Header() {
         <ul><Link href="/" className="text-gray-feeble font-medium text-base">Use Case</Link></ul>
         <ul><Link href="/" className="text-gray-feeble font-medium text-base">FAQ</Link></ul>
         </nav>
-        <Button />
+        <Button 
+        text="Contact Sales"
+        />
       </div>
     </header>
   )
